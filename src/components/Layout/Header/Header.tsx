@@ -18,7 +18,7 @@ export const Header = () => {
     <header className={`header ${isScrolled ? "header--scrolled" : ""}`}>
       <div className="header__container">
         <Link to="/" className="header__logo">
-          RentalMap
+          FindMyApt | Montreal
         </Link>
         <nav className="header__nav">
           <Link to="/map" className="header__nav-item">
